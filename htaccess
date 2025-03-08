@@ -1,0 +1,5 @@
+RewriteCond %{THE_REQUEST} /index\.html? [NC]
+RewriteRule ^(.*/)?index\.html?$ /$1 [R=301,L]
+
+# How to Prevent a Directory Listing of Your Website with .htaccess: https://www.thesitewizard.com/apache/prevent-directory-listing-htaccess.shtml
+Options -Indexes
