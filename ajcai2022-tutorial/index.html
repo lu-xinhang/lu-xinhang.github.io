@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Developments in Fair Resource Allocation (AJCAI 2022 Tutorial)">
+<title>Developments in Fair Resource Allocation (AJCAI 2022 Tutorial)</title>
+<style>
+@font-face {
+	font-family: Clancy;
+	src: url('Clancy-Light.otf');
+}
+
+@font-face {
+	font-family: Clancy;
+	font-weight: bold;
+	src: url('Clancy-Regular.otf');
+}
+
+html {
+	font-family: "Clancy", "Arial";
+	max-width: 850px;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-character;
+}
+
+a {
+	text-decoration: none;
+	color: #3f61c4; /* Teal: #007882. */
+	font-weight: bold;
+}
+
+a:hover {text-decoration: underline;}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	background: #ffdc00; /* Yellow: #ffdc00. https://viewer.joomag.com/unsw-visual-style-guide-visual-style-guide/0049350001581049808 */
+	text-align: center;
+	clear: right;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.note {color: #939597;}
+</style>
+
+<body>
+<h1>Developments in Fair Resource Allocation <br> <span style="font-size: smaller;">AJCAI 2022 Tutorial</span></h1>
+
+<p style="text-align: center;">
+<a href="https://sites.google.com/site/harisaziz/">Haris Aziz</a>,
+<a href="http://luxinhang.com/">Xinhang Lu</a>,
+<a href="https://www.mashsuzuki.com/">Mashbat Suzuki</a>, and
+<a href="http://www.cse.unsw.edu.au/~tw/">Toby Walsh</a>
+</p>
+
+<p style="text-align: center;">
+UNSW Sydney, Australia
+</p>
+
+<h2>Time and Location</h2>
+
+<p>9am &ndash; 12pm (UTC/GMT+8, <a href="https://www.timeanddate.com/time/zone/australia/perth">AWST</a>) on Monday, 05 December 2022</p>
+
+<p><a href="https://ajcai2022.org/program/">Ballroom</a>, Hyatt Regency Perth, Perth, WA, Australia</p>
+
+<h2>Abstract</h2>
+
+<p>
+This tutorial will introduce both classic and recent results on fair resource allocation.
+To start, we will outline prominent fairness notions when allocating divisible (commonly known as "cake cutting") and indivisible resources and their properties in respective settings.
+Moving on, we will focus on recent developments in the line of work that combines both divisible and indivisible resources.
+First, we will discuss fair division with money, in which money can be viewed as a homogeneous divisible good.
+We will next touch on the axiomatic study of fairness when allocating a mix of divisible and indivisible resources.
+</p>
+
+<p>
+The last part of this tutorial will focus on matching algorithms and their properties.
+Specifically, we will examine important solution concepts and axiomatic properties such as individual rationality, Pareto efficiency, core stability, and strategyproofness.
+We will also explore fundamental matching algorithms including Kuhn's algorithm, Gale's TTC algorithm and the Deferred Acceptance algorithm.
+</p>
+
+<h2>Tutorial Outline and Materials</h2>
+
+<table class="center" style="width: 90%;">
+<tr>
+<th>Time</th>
+<th>Topic</th>
+<th>Presenter</th>
+<th>Resources</th>
+</tr>
+<tr>
+<td>09:00 &ndash; 09:40</td>
+<td>Introduction to Fair Division</td>
+<td>Toby Walsh</td>
+<td><a href="slides-fair-division-intro-Toby-Walsh.pptx">Slides</a></td>
+</tr>
+<tr>
+<td>09:40 &ndash; 10:20</td>
+<td>Fair Division with Subsidy</td>
+<td>Mashbat Suzuki</td>
+<td><a href="slides-subsidy-Mashbat-Suzuki.pdf">Slides</a></td>
+</tr>
+<tr>
+<td>10:20 &ndash; 10:30</td>
+<td style="font-weight: bold;">BREAK</td>
+</tr>
+<tr>
+<td>10:30 &ndash; 11:10</td>
+<td>Fair Division of Mixed Goods</td>
+<td>Xinhang Lu</td>
+<td><a href="slides-mixed-goods-Xinhang-Lu.pdf">Slides</a></td>
+</tr>
+<tr>
+<td>11:10 &ndash; 11:50</td>
+<td>Matching</td>
+<td>Haris Aziz</td>
+<td><a href="slides-matching-Haris-Aziz.pdf">Slides</a></td>
+</tr>
+</table>
+
+
+<h2>Presenters' Biographies</h2>
+
+<p>
+<a href="https://sites.google.com/site/harisaziz/">Haris Aziz</a> is a Scientia Associate Professor at UNSW Sydney, leader of the Algorithmic Decision Theory group, and director of UNSW.ai.
+His research interests lie at the intersection of artificial intelligence, theoretical computer science and mathematical social sciences &mdash; especially computational social choice and algorithmic game theory.
+</p>
+
+<p>
+<a href="http://luxinhang.com/">Xinhang Lu</a> is a Postdoctoral Fellow in the School of Computer Science and Engineering at UNSW Sydney.
+She was a Research Fellow at the National University of Singapore and completed her PhD at Nanyang Technological University, Singapore.
+She is broadly interested in problems at the interface between computer science and economics.
+Recently, her work has focused on resource allocation and mechanism design.
+Her work on fair division of mixed goods received the Outstanding Student Paper Award at AAAI 2020.
+</p>
+
+<p>
+<a href="https://www.mashsuzuki.com/">Mashbat Suzuki</a> is a Postdoctoral Fellow in the School of Computer Science and Engineering at UNSW Sydney.
+Prior to joining UNSW, he finished his PhD in computer science at McGill University, Canada.
+His research interests lie at the interface between AI, theoretical computer science, and economics.
+In particular, his recent research has been focused on fair division and social choice.
+Broadly, he is interested theoretical computer science and its applications.
+</p>
+
+<p>
+<a href="http://www.cse.unsw.edu.au/~tw/">Toby Walsh</a> is a leading researcher in Artificial Intelligence.
+He is a Laureate Fellow and Scientia Professor of Artificial Intelligence in the School of Computer Science and Engineering at UNSW Sydney, and he is also an adjunct fellow at CSIRO Data61.
+He was named by the Australian newspaper as a "rock star" of Australia's digital revolution.
+He has been elected a fellow of the Australian Academy of Science, a fellow of the ACM, the Association for the Advancement of Artificial Intelligence (AAAI) and of the European Association for Artificial Intelligence.
+He has won the prestigious Humboldt Prize as well as the NSW Premier's Prize for Excellence in Engineering and ICT, and the ACP Research Excellence award.
+He has previously held research positions in England, Scotland, France, Germany, Italy, Ireland and Sweden.
+He has played a leading role at the UN and elsewhere on the campaign to ban lethal autonomous weapons (aka "killer robots").
+His advocacy in this area has led to him being "banned indefinitely" from Russia.
+</p>
+</body>
+</head>
